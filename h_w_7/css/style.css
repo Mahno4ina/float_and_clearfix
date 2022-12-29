@@ -136,14 +136,10 @@ table {
     background: orangered;
    
     
-}
-.back{
-    float: left;
-    
-}
-.back2{
-    float: right;
-    
+.clearfix:after{
+    content: "" ;
+    display: block;
+    clear: both;
 }
 
 .f_l {
