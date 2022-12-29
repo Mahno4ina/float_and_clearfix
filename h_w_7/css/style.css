@@ -127,21 +127,17 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-.clr {
-    clear: both;
-}
-
-.float {
-    background: orangered;
-   
-    
 .clearfix:after{
     content: "" ;
     display: block;
     clear: both;
 }
 
+
+
+.float {
+    background: orangered;
+}
 .f_l {
     width: 388px;
     background: pink;
@@ -287,17 +283,7 @@ table {
     outline: 2px solid black;
 }
 
-.link1 {
-    font-size: 30px;
-    
-    padding-left: 100px;
-}
 
-.link2 {
-    font-size: 30px;
-    
-    padding-right: 100px;
-}
 
 .in_p {
    margin: 0 auto;
